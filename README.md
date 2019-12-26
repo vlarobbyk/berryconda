@@ -1,35 +1,38 @@
 ## Berry Conda
 
-Berryconda is a conda based Python distribution for the Raspberry Pi.  With it,
-you can install and manage a scientific or Pydata stack on your Raspberry Pi using
+Berryconda is a Conda based Python distribution for the Raspberry Pi and TinkerOS (Tinker Board - ASUS).  With it,
+you can install and manage a scientific or Pydata stack on your Raspberry Pi and Tinker Board using
 [conda](http://conda.pydata.org/docs/), a package and environment management system.
 All this can be done without compiling a single package!
 
 ## Quick start
 
 Berryconda is designed to work with [raspbian](https://www.raspbian.org/)
-jessie.  Other Linux versions and distributions may or may not work.
+jessie and [TinkerOS Debian](https://tinkerboarding.co.uk/wiki/index.php/TinkerOS).  Other Linux versions and distributions may or may not work.
 When using non-raspbian based distributions, bzip2 should be installed.
 
 To install Berryconda, download the installer appropiate for your Raspberry Pi
-model.  For Raspberry Pi 2 or 3 use the armv7l installers.  For Raspberry
+model or Tinker Board.  For Raspberry Pi 2 or 3 and Tinker Board use the armv7l installers.  For Raspberry
 Pi 1 or Zero use the armv6l installer.
 
 Berryconda comes in two 'flavors', Berryconda2 and Berryconda3.  The difference
 between these are the version of Python installed; Berryconda2 installs
 Python 2.7, and Berryconda3 installs Python 3.6. Choose the version you want installed.
 
-### armv7l installers (Raspberry Pi 2 or 3)
+### armv7l installers (Raspberry Pi 2 or 3 or Tinker Board)
 
 * [Berryconda3-2.0.0-Linux-armv7l.sh](https://github.com/jjhelmus/berryconda/releases/download/v2.0.0/Berryconda3-2.0.0-Linux-armv7l.sh)
 * [Berryconda2-2.0.0-Linux-armv7l.sh](https://github.com/jjhelmus/berryconda/releases/download/v2.0.0/Berryconda2-2.0.0-Linux-armv7l.sh)
+
+#### Installing Berryconda on Tinker Board
+Prueba de instalación
 
 ### armv6l installers (Raspberry Pi 1 or Zero)
 
 * [Berryconda3-2.0.0-Linux-armv6l.sh](https://github.com/jjhelmus/berryconda/releases/download/v2.0.0/Berryconda3-2.0.0-Linux-armv6l.sh)
 * [Berryconda2-2.0.0-Linux-armv6l.sh](https://github.com/jjhelmus/berryconda/releases/download/v2.0.0/Berryconda2-2.0.0-Linux-armv6l.sh)
 
-Once this file is downloaded on your Raspberry Pi, make the file executable
+Once this file is downloaded on your Raspberry Pi or Tinker Board, make the file executable
 using `chmod` and the execuate the installer.  For example, to install
 Berryconda3 on a Raspberry Pi 3:
 
