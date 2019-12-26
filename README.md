@@ -24,8 +24,6 @@ Python 2.7, and Berryconda3 installs Python 3.6. Choose the version you want ins
 * [Berryconda3-2.0.0-Linux-armv7l.sh](https://github.com/jjhelmus/berryconda/releases/download/v2.0.0/Berryconda3-2.0.0-Linux-armv7l.sh)
 * [Berryconda2-2.0.0-Linux-armv7l.sh](https://github.com/jjhelmus/berryconda/releases/download/v2.0.0/Berryconda2-2.0.0-Linux-armv7l.sh)
 
-#### Installing Berryconda on Tinker Board
-Prueba de instalación
 
 ### armv6l installers (Raspberry Pi 1 or Zero)
 
@@ -47,6 +45,14 @@ Berryconda should be installed in a user account, not by root or using sudo.
 
 Once installed use the [conda](http://conda.pydata.org/docs/) command to
 add packages from the [rpi](https://anaconda.org/rpi/) channel.
+
+
+### Installing Berryconda on Tinker Board
+The process that must be followed to install Berryconda in the Tinker Board is the same. You only need to execute the following command:
+
+```
+./Berryconda3-2.0.0-Linux-armv7l.sh
+```
 
 ## Details
 
