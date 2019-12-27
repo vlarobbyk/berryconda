@@ -54,6 +54,26 @@ The process that must be followed to install Berryconda in the Tinker Board is t
 ./Berryconda3-2.0.0-Linux-armv7l.sh
 ```
 
+After that, you can create a repository (for example "opencv") using the following command (Figure 1):
+
+```
+conda create --name opencv python=3.6 numpy matplotlib
+```
+This will create a repository named "opencv" with Python 3.6 version and  [numpy](https://numpy.org/) and [matplotlib](https://matplotlib.org/) libraries.
+
+![Creating a virtual environment named "opencv"](./images/Creating-virtual-environment.png "Title")
+*Figure 1. A screenshot of the virtual environment creation process*
+
+Once you have created the virtual environment, you can activate it using the following command:
+
+```
+source activate opencv
+```
+After that you will able to use Python and import the packages. The Figure 2 depicts an example where I used the MatplotLib libraty:
+
+![Creating a virtual environment named "opencv"](./images/Using-Numpy-and-Matploblib.png "Title")
+*Figure 2. Using the MatplotLib and Numpy in the virtual environment*
+
 ## Details
 
 Berryconda is created using [constructor](https://github.com/conda/constructor)
